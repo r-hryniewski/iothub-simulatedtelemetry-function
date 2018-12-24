@@ -5,7 +5,7 @@ Simple Azure function to simulate thermometer device that sends random temperatu
 
 Just fill in `DeviceEndpoint` setting in your Azure Function with your IoT Hub Device endpoint, publish this project and have fun.
 
-Sample message in IoT Hub looks just like that:
+Sample message in IoT Hub (retrieved in Stream Analytics) looks just like that:
 
 ```json
 {
